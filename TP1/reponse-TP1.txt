@@ -1,0 +1,33 @@
+LIFAP5 - TP1 : premiers pas en JavaScript et HTML
+
+EXERCICE 0
+Bases du langages
+
+1. typeof donne le type de la valeur qui suit
+instanceof est un booléen qui compare une valeur et un type. Si la valeur est du bon type, true est renvoyé, false sinon.
+
+2. == est une comparaison qui ne prend pas en compte le type
+=== est une comparaison stricte qui prend en compte le type
+
+3. Tu déclares un type en paramètre et tu passes une valeur du même type quand tu appelles la fonction.
+
+
+Premières fonctions
+
+2.function fibonacchi(n){
+  let t=[0,1];
+    for(let i=2; i<n; i++){
+    t.push(t[i-2]+t[i-1]);
+  }
+    return t;
+}
+
+3. function fibonacchi(n){
+    if(Number.isInteger(n)){
+      let t=[0,1];
+        for(let i=2; i<n; i++){
+        t.push(t[i-2]+t[i-1]);
+      }
+        return t;
+    }
+  }

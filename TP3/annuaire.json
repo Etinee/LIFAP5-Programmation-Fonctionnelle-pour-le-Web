@@ -1,0 +1,8 @@
+[
+  { "titre": "Nouvelles du département",
+    "url": "https://perso.liris.cnrs.fr/emmanuel.coquery/enseignement/lifap5/TP3/getjson.php?file=nouvelles.json" },
+  { "titre": "Autres nouvelles du département",
+      "url": "https://perso.liris.cnrs.fr/emmanuel.coquery/enseignement/lifap5/TP3/getjson.php?file=nouvelles_bis.json" },
+  { "titre": "Nouvelles inexistantes (doit provoquer une erreur)",
+    "url": "https://perso.liris.cnrs.fr/emmanuel.coquery/enseignement/lifap5/TP3/getjson.php?file=patate.json" }
+]
